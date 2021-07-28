@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+	th, td {
+		margin: 0;
+  	border: 1px solid black;
+  	border-style:outset;
+	}
+
+	#outer{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+		background-color: #04AA6D;
+
+	}
+	#outer li{
+		float: left;
+	}
+	#outer li a{
+		display: block;
+		cursor: pointer;
+		color:white ;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	#outer li a:hover{
+		background-color: green;
+	}
+	#outer input{
+		margin: 7px;
+		float: right;
+		width: 150px;
+		height: 25px;
+	}
+	#outer input:hover{
+		transition: 0.5s;
+		background-color: lightgrey;
+	}
+
+
+
+	#inner{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		left: 0;
+		background-color: lightgrey;
+	}
+	#inner li{
+		float: left;
+	}
+	#inner li a{
+		display: block;
+		border-bottom: 4px solid darkgreen;
+		cursor: pointer;
+		color:black;
+		overflow: hidden;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	#inner li a:hover{
+		background-color: grey;
+	}
+	#dropbox1{
+		margin-left: 2px;
+		width: 200px;
+		height: 45px;
+		color: white;
+		border-style: none;
+		background-color: #04AA6D;
+	}
+	#dropbox1:hover{
+		background-color: green;
+	}
+	#dropbox2{
+		margin-left: 2px;
+		width: 20px;
+		height: 50px;
+		color: white;
+		border-style: none;
+		background-color: lightgrey;
+	}
+	#dropbox2:hover{
+		background-color: grey;
+	}
