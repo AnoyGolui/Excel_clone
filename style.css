@@ -3,9 +3,9 @@ body{
 	padding: 0;
 }
 	th, td {
-		margin: 0;
-  	border: 1px solid black;
-  	border-style:outset;
+		padding: 4px;
+  		border: 1px solid black;
+  		border-style:outset;
 	}
 
 	#outer{
@@ -70,11 +70,11 @@ body{
 		overflow: hidden;
 		font-size: 15px;
 		text-align: center;
+		font-weight: 400;
 		padding: 14px 16px;
 		text-decoration: none;
 	}
 	#inner li a:hover{
-		display: grid;
 		font-weight: 500;
 		background-color: grey;
 	}
@@ -105,4 +105,77 @@ body{
 	#inner #ou61 a:hover{
 		font-weight: 400;
 		background-color: white;
+	}
+	#inner #ou71 a:hover{
+		font-weight: 400;
+		background-color: white;
+	}
+	#inner #ou81{
+		float: right;
+	}
+	#inner #ou91{
+		float: right;
+	}
+	.moreinn1 {
+		margin: 0;
+	}
+	.moreinn1 .mr{
+		margin: -2px;
+		width: 30px;
+		height: 35px;
+		display: inline-block;
+		background-color: lightgrey;
+	}
+	#dropbox3{
+		margin: 0;
+		float: right;
+		height: 35px;
+		width: 20px;
+		color: black;
+		border-style: none;
+		background-color: lightgrey;
+	}
+	#mi2{
+		border: 1px solid	black;
+		width: 55px;
+		background-color: white;
+	}
+	#mi3{
+		
+		text-decoration: none;
+		font-weight: 700;
+	}
+	.flt_left #fl{
+		display: flex;
+		flex-direction: column;
+		float: left;
+		margin-left:-5px ;
+		margin-top: -2px;
+
+	}
+	
+	.flt_left #fl li{
+		margin-left: -35px;
+
+		text-align: center;
+		width: 40px;
+		border-bottom:1px solid lightgrey;
+		border-top:1px solid lightgrey;
+		border-right: 1px solid grey;
+		display:inline-block;
+		list-style-type: none;
+	}
+	.flt_left #fl li:hover{
+		cursor: pointer;
+		color:green ;
+		background-color: lightgreen;
+		font-weight: 600;
+	}
+	.flt_down {
+		position: relative;
+		float:left;
+	}
+	.flt_down td{
+		margin: -12px;
+		width: 40px;
 	}
