@@ -46,27 +46,36 @@ body{
 
 
 	#inner{
+		height: 40px;
+		display: inline-block;
+  		gap: 1rem;
+  		grid-template-columns: repeat(4, minmax(0, 1fr));
+		font: 120% system-ui;
+  		text-align: center;
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		top: 0;
-		left: 0;
 		background-color: lightgrey;
 	}
 	#inner li{
 		float: left;
 	}
 	#inner li a{
+		margin-left: 8px;
 		display: block;
+		height: 10px;
 		border-bottom: 4px solid darkgreen;
 		cursor: pointer;
 		color:black;
 		overflow: hidden;
+		font-size: 15px;
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
 	}
 	#inner li a:hover{
+		display: grid;
+		font-weight: 500;
 		background-color: grey;
 	}
 	#dropbox1{
@@ -81,13 +90,19 @@ body{
 		background-color: green;
 	}
 	#dropbox2{
-		margin-left: 2px;
+		margin: 0;
+		float: left;
+		justify-content: center;
 		width: 20px;
-		height: 50px;
+		height: 40px;
 		color: white;
 		border-style: none;
 		background-color: lightgrey;
 	}
 	#dropbox2:hover{
 		background-color: grey;
+	}
+	#inner #ou61 a:hover{
+		font-weight: 400;
+		background-color: white;
 	}
